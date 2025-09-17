@@ -177,6 +177,42 @@ const Dashboard: React.FC<DashboardProps> = ({ currentRole, onRoleChange }) => {
           </div>
         </CardContent>
       </Card>
+
+      {/* Donation Campaigns */}
+      <Card className="hover-lift">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <Heart className="h-5 w-5 text-destructive" />
+            Support Your Institute
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4">
+            {mockDonations.map((campaign) => (
+              <div key={campaign.id} className="space-y-3 p-3 border rounded-lg">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h4 className="font-medium text-sm">{campaign.title}</h4>
+                    <p className="text-xs text-muted-foreground">{campaign.donors} donors</p>
+                  </div>
+                  <Button size="sm" className="btn-hero">
+                    <DollarSign className="h-3 w-3 mr-1" />
+                    Donate
+                  </Button>
+                </div>
+                <Progress value={(campaign.raised / campaign.target) * 100} className="h-2" />
+                <div className="flex justify-between text-xs text-muted-foreground">
+                  <span>₹{campaign.raised.toLocaleString()}</span>
+                  <span>Goal: ₹{campaign.target.toLocaleString()}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <Button variant="outline" size="sm" className="w-full mt-3">
+            View All Campaigns
+          </Button>
+        </CardContent>
+      </Card>
     </div>
   );
 
@@ -400,28 +436,70 @@ const Dashboard: React.FC<DashboardProps> = ({ currentRole, onRoleChange }) => {
       </Card>
 
       {/* Donations Dashboard */}
-      <Card className="hover-lift">
+      <Card className="hover-lift col-span-full md:col-span-2">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Heart className="h-5 w-5 text-destructive" />
-            Active Campaigns
+          <CardTitle className="flex items-center justify-between">
+            <span className="flex items-center gap-2">
+              <Heart className="h-5 w-5 text-destructive" />
+              Fundraising Management
+            </span>
+            <Button className="btn-hero" size="sm">
+              <Plus className="h-4 w-4 mr-2" />
+              Create Campaign
+            </Button>
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="space-y-4">
-            {mockDonations.map((campaign) => (
-              <div key={campaign.id} className="space-y-2">
-                <div className="flex justify-between text-sm">
-                  <span className="font-medium">{campaign.title}</span>
-                  <span className="text-muted-foreground">{campaign.donors} donors</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="space-y-3">
+              <h4 className="font-medium text-sm">Active Campaigns</h4>
+              {mockDonations.map((campaign) => (
+                <div key={campaign.id} className="space-y-2 p-3 border rounded-lg">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h5 className="font-medium text-sm">{campaign.title}</h5>
+                      <p className="text-xs text-muted-foreground">{campaign.donors} donors</p>
+                    </div>
+                    <div className="flex gap-1">
+                      <Button size="sm" variant="outline" className="h-7 px-2 text-xs">Edit</Button>
+                      <Button size="sm" variant="outline" className="h-7 px-2 text-xs">View</Button>
+                    </div>
+                  </div>
+                  <Progress value={(campaign.raised / campaign.target) * 100} className="h-2" />
+                  <div className="flex justify-between text-xs text-muted-foreground">
+                    <span>₹{campaign.raised.toLocaleString()}</span>
+                    <span>₹{campaign.target.toLocaleString()}</span>
+                  </div>
                 </div>
-                <Progress value={(campaign.raised / campaign.target) * 100} className="h-2" />
-                <div className="flex justify-between text-xs text-muted-foreground">
-                  <span>₹{campaign.raised.toLocaleString()}</span>
-                  <span>₹{campaign.target.toLocaleString()}</span>
+              ))}
+            </div>
+            <div className="space-y-3">
+              <h4 className="font-medium text-sm">Recent Donations</h4>
+              <div className="space-y-2">
+                <div className="flex items-center justify-between p-2 border rounded">
+                  <div>
+                    <span className="text-sm font-medium">Amit Kumar</span>
+                    <p className="text-xs text-muted-foreground">Computer Lab Upgrade</p>
+                  </div>
+                  <Badge className="bg-success/10 text-success">₹25,000</Badge>
+                </div>
+                <div className="flex items-center justify-between p-2 border rounded">
+                  <div>
+                    <span className="text-sm font-medium">Priya Singh</span>
+                    <p className="text-xs text-muted-foreground">Scholarship Fund</p>
+                  </div>
+                  <Badge className="bg-success/10 text-success">₹50,000</Badge>
+                </div>
+                <div className="flex items-center justify-between p-2 border rounded">
+                  <div>
+                    <span className="text-sm font-medium">Anonymous</span>
+                    <p className="text-xs text-muted-foreground">Computer Lab Upgrade</p>
+                  </div>
+                  <Badge className="bg-success/10 text-success">₹10,000</Badge>
                 </div>
               </div>
-            ))}
+              <Button variant="outline" size="sm" className="w-full">View All Donations</Button>
+            </div>
           </div>
         </CardContent>
       </Card>
