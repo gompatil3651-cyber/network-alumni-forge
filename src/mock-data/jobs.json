@@ -1,0 +1,287 @@
+[
+  {
+    "id": "job001",
+    "title": "Senior Software Engineer - Full Stack",
+    "company": {
+      "name": "Google",
+      "logo": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=100&h=100&fit=crop",
+      "size": "Large (10,000+)",
+      "industry": "Technology"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "isRemote": false,
+      "hybrid": true
+    },
+    "type": "Full-time",
+    "experience": "4-6 years",
+    "salary": {
+      "min": 2500000,
+      "max": 3500000,
+      "currency": "INR",
+      "period": "annual"
+    },
+    "description": "Join Google's engineering team to build products that impact billions of users worldwide. Work on cutting-edge technologies and solve complex problems at scale.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "4+ years of experience in full-stack development",
+      "Proficiency in React, Node.js, and cloud technologies",
+      "Experience with distributed systems and microservices",
+      "Strong problem-solving and communication skills"
+    ],
+    "skills": ["React", "Node.js", "TypeScript", "AWS", "Microservices", "System Design"],
+    "benefits": ["Health Insurance", "Stock Options", "Flexible Hours", "Learning Budget", "Free Meals"],
+    "postedBy": {
+      "name": "Recruiting Team",
+      "email": "careers@google.com",
+      "isAlumni": false
+    },
+    "institutePreferences": ["1", "2", "3", "4"],
+    "applicationDeadline": "2024-03-15T00:00:00Z",
+    "isActive": true,
+    "applications": 156,
+    "views": 2340,
+    "createdAt": "2024-01-20T00:00:00Z",
+    "updatedAt": "2024-01-25T10:30:00Z"
+  },
+  {
+    "id": "job002",
+    "title": "Product Manager - AI/ML Products",
+    "company": {
+      "name": "Microsoft",
+      "logo": "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?w=100&h=100&fit=crop",
+      "size": "Large (10,000+)",
+      "industry": "Technology"
+    },
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana", 
+      "country": "India",
+      "isRemote": true,
+      "hybrid": true
+    },
+    "type": "Full-time",
+    "experience": "3-5 years",
+    "salary": {
+      "min": 2000000,
+      "max": 2800000,
+      "currency": "INR",
+      "period": "annual"
+    },
+    "description": "Drive product strategy for Microsoft's AI and ML products. Work with engineering teams to deliver innovative solutions that leverage cutting-edge AI technologies.",
+    "requirements": [
+      "MBA or equivalent experience in product management",
+      "3+ years of product management experience",
+      "Strong understanding of AI/ML technologies",
+      "Experience with data-driven decision making",
+      "Excellent communication and leadership skills"
+    ],
+    "skills": ["Product Strategy", "AI/ML", "Data Analysis", "User Research", "Agile", "Leadership"],
+    "benefits": ["Health Insurance", "Stock Purchase Plan", "Parental Leave", "Learning Resources", "Gym Membership"],
+    "postedBy": {
+      "name": "Rahul Kumar",
+      "email": "rahul.kumar@microsoft.com",
+      "isAlumni": true,
+      "institute": "IIT Delhi"
+    },
+    "institutePreferences": ["1", "6", "7"],
+    "applicationDeadline": "2024-02-28T00:00:00Z",
+    "isActive": true,
+    "applications": 89,
+    "views": 1567,
+    "createdAt": "2024-01-18T00:00:00Z",
+    "updatedAt": "2024-01-24T14:20:00Z"
+  },
+  {
+    "id": "job003",
+    "title": "Data Scientist - Machine Learning",
+    "company": {
+      "name": "Flipkart",
+      "logo": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=100&h=100&fit=crop",
+      "size": "Large (5,000-10,000)",
+      "industry": "E-commerce"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "isRemote": false,
+      "hybrid": true
+    },
+    "type": "Full-time",
+    "experience": "2-4 years",
+    "salary": {
+      "min": 1800000,
+      "max": 2500000,
+      "currency": "INR",
+      "period": "annual"
+    },
+    "description": "Build ML models to enhance customer experience across Flipkart's platform. Work on recommendation systems, fraud detection, and personalization algorithms.",
+    "requirements": [
+      "Master's degree in Computer Science, Statistics, or related field",
+      "2+ years of experience in machine learning",
+      "Proficiency in Python, scikit-learn, TensorFlow/PyTorch",
+      "Experience with large-scale data processing",
+      "Strong statistical and analytical skills"
+    ],
+    "skills": ["Python", "Machine Learning", "TensorFlow", "SQL", "Statistics", "Big Data"],
+    "benefits": ["Health Insurance", "ESOP", "Flexible Work", "Upskilling Budget", "Wellness Programs"],
+    "postedBy": {
+      "name": "Priya Sharma",
+      "email": "priya.sharma@flipkart.com",
+      "isAlumni": true,
+      "institute": "IIT Madras"
+    },
+    "institutePreferences": ["1", "2", "3", "5"],
+    "applicationDeadline": "2024-03-01T00:00:00Z",
+    "isActive": true,
+    "applications": 234,
+    "views": 3210,
+    "createdAt": "2024-01-15T00:00:00Z",
+    "updatedAt": "2024-01-25T16:45:00Z"
+  },
+  {
+    "id": "job004",
+    "title": "Software Development Engineer Intern",
+    "company": {
+      "name": "Amazon",
+      "logo": "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=100&h=100&fit=crop",
+      "size": "Large (10,000+)",
+      "industry": "Technology"
+    },
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "isRemote": false,
+      "hybrid": false
+    },
+    "type": "Internship",
+    "experience": "0-1 years",
+    "salary": {
+      "min": 100000,
+      "max": 150000,
+      "currency": "INR",
+      "period": "monthly"
+    },
+    "description": "Summer internship program for computer science students. Work on real-world projects, get mentorship from senior engineers, and potential full-time offer.",
+    "requirements": [
+      "Currently pursuing Bachelor's/Master's in Computer Science",
+      "Strong programming skills in Java, Python, or C++",
+      "Understanding of data structures and algorithms",
+      "Good academic record and problem-solving skills"
+    ],
+    "skills": ["Java", "Python", "Data Structures", "Algorithms", "Problem Solving"],
+    "benefits": ["Mentorship", "Learning Opportunities", "Networking", "Potential Full-time Offer"],
+    "postedBy": {
+      "name": "Campus Recruiting Team",
+      "email": "university@amazon.com",
+      "isAlumni": false
+    },
+    "institutePreferences": ["1", "2", "3", "4", "10"],
+    "applicationDeadline": "2024-02-15T00:00:00Z",
+    "isActive": true,
+    "applications": 567,
+    "views": 4520,
+    "createdAt": "2024-01-10T00:00:00Z",
+    "updatedAt": "2024-01-23T11:15:00Z"
+  },
+  {
+    "id": "job005",
+    "title": "Frontend Developer - React Specialist",
+    "company": {
+      "name": "Swiggy",
+      "logo": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=100&h=100&fit=crop",
+      "size": "Medium (1,000-5,000)",
+      "industry": "Food Tech"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "isRemote": true,
+      "hybrid": true
+    },
+    "type": "Full-time",
+    "experience": "2-4 years",
+    "salary": {
+      "min": 1200000,
+      "max": 1800000,
+      "currency": "INR",
+      "period": "annual"
+    },
+    "description": "Build delightful user experiences for millions of Swiggy users. Work on mobile-first web applications and contribute to our design system.",
+    "requirements": [
+      "3+ years of experience with React.js",
+      "Strong knowledge of JavaScript, TypeScript, and CSS",
+      "Experience with state management libraries (Redux/Context)",
+      "Mobile-first responsive design experience",
+      "Understanding of performance optimization"
+    ],
+    "skills": ["React.js", "TypeScript", "Redux", "CSS", "Mobile Development", "Performance"],
+    "benefits": ["Free Food", "Health Insurance", "Stock Options", "Flexible Hours", "Learning Budget"],
+    "postedBy": {
+      "name": "Amit Singh",
+      "email": "amit.singh@swiggy.in",
+      "isAlumni": true,
+      "institute": "BITS Pilani"
+    },
+    "institutePreferences": ["10", "8", "9"],
+    "applicationDeadline": "2024-02-20T00:00:00Z",
+    "isActive": true,
+    "applications": 98,
+    "views": 1890,
+    "createdAt": "2024-01-22T00:00:00Z",
+    "updatedAt": "2024-01-25T09:30:00Z"
+  },
+  {
+    "id": "job006",
+    "title": "DevOps Engineer - Cloud Infrastructure",
+    "company": {
+      "name": "Zomato",
+      "logo": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=100&h=100&fit=crop",
+      "size": "Medium (1,000-5,000)",
+      "industry": "Food Tech"
+    },
+    "location": {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "country": "India",
+      "isRemote": false,
+      "hybrid": true
+    },
+    "type": "Full-time",
+    "experience": "3-5 years",
+    "salary": {
+      "min": 1500000,
+      "max": 2200000,
+      "currency": "INR",
+      "period": "annual"
+    },
+    "description": "Manage and scale Zomato's cloud infrastructure. Work with containerization, CI/CD pipelines, and monitoring systems to ensure high availability.",
+    "requirements": [
+      "3+ years of DevOps/Infrastructure experience",
+      "Strong knowledge of AWS/GCP and containerization",
+      "Experience with Kubernetes, Docker, and CI/CD",
+      "Proficiency in scripting languages (Python/Bash)",
+      "Understanding of monitoring and logging systems"
+    ],
+    "skills": ["AWS", "Kubernetes", "Docker", "Python", "CI/CD", "Monitoring"],
+    "benefits": ["Health Insurance", "ESOP", "Flexible Work", "Tech Conferences", "Team Outings"],
+    "postedBy": {
+      "name": "Neha Agarwal",
+      "email": "neha.agarwal@zomato.com",
+      "isAlumni": true,
+      "institute": "IIT Kanpur"
+    },
+    "institutePreferences": ["1", "2", "3", "4"],
+    "applicationDeadline": "2024-03-10T00:00:00Z",
+    "isActive": true,
+    "applications": 76,
+    "views": 1245,
+    "createdAt": "2024-01-25T00:00:00Z",
+    "updatedAt": "2024-01-25T18:00:00Z"
+  }
+]

@@ -71,17 +71,17 @@ const Header: React.FC<HeaderProps> = ({ onRoleSwitch, currentRole }) => {
                 <a href="/dashboard" className="text-foreground hover:text-primary transition-colors">
                   Dashboard
                 </a>
+                <a href="/communities" className="text-foreground hover:text-primary transition-colors">
+                  Communities
+                </a>
+                <a href="/jobs" className="text-foreground hover:text-primary transition-colors">
+                  Jobs
+                </a>
                 <a href="/events" className="text-foreground hover:text-primary transition-colors">
                   Events
                 </a>
                 <a href="/mentorship" className="text-foreground hover:text-primary transition-colors">
                   Mentorship
-                </a>
-                <a href="/jobs" className="text-foreground hover:text-primary transition-colors">
-                  Jobs
-                </a>
-                <a href="/communities" className="text-foreground hover:text-primary transition-colors">
-                  Communities
                 </a>
               </nav>
             )}
@@ -205,17 +205,17 @@ const Header: React.FC<HeaderProps> = ({ onRoleSwitch, currentRole }) => {
               <a href="/dashboard" className="px-3 py-2 text-foreground hover:text-primary transition-colors">
                 Dashboard
               </a>
+              <a href="/communities" className="px-3 py-2 text-foreground hover:text-primary transition-colors">
+                Communities
+              </a>
+              <a href="/jobs" className="px-3 py-2 text-foreground hover:text-primary transition-colors">
+                Jobs
+              </a>
               <a href="/events" className="px-3 py-2 text-foreground hover:text-primary transition-colors">
                 Events
               </a>
               <a href="/mentorship" className="px-3 py-2 text-foreground hover:text-primary transition-colors">
                 Mentorship
-              </a>
-              <a href="/jobs" className="px-3 py-2 text-foreground hover:text-primary transition-colors">
-                Jobs
-              </a>
-              <a href="/communities" className="px-3 py-2 text-foreground hover:text-primary transition-colors">
-                Communities
               </a>
             </nav>
             

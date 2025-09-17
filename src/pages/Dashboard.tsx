@@ -156,7 +156,91 @@ const Dashboard: React.FC<DashboardProps> = ({ currentRole, onRoleChange }) => {
         </CardContent>
       </Card>
 
-      {/* Mentorship */}
+      {/* Communities Section */}
+      <Card className="hover-lift">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <Users className="h-5 w-5 text-primary" />
+            My Communities
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-3">
+            <div className="flex items-center justify-between p-3 border rounded-lg hover:bg-secondary/50 transition-colors">
+              <div className="flex items-center space-x-3">
+                <Avatar className="h-8 w-8">
+                  <AvatarFallback className="bg-primary text-primary-foreground text-xs">
+                    ID
+                  </AvatarFallback>
+                </Avatar>
+                <div>
+                  <h4 className="font-medium text-sm">IIT Delhi Alumni</h4>
+                  <p className="text-xs text-muted-foreground">12.4k members</p>
+                </div>
+              </div>
+              <Badge variant="outline" className="text-xs">Active</Badge>
+            </div>
+            <div className="flex items-center justify-between p-3 border rounded-lg hover:bg-secondary/50 transition-colors">
+              <div className="flex items-center space-x-3">
+                <Avatar className="h-8 w-8">
+                  <AvatarFallback className="bg-accent text-accent-foreground text-xs">
+                    TE
+                  </AvatarFallback>
+                </Avatar>
+                <div>
+                  <h4 className="font-medium text-sm">Tech Entrepreneurs</h4>
+                  <p className="text-xs text-muted-foreground">8.7k members</p>
+                </div>
+              </div>
+              <Badge variant="outline" className="text-xs">Active</Badge>
+            </div>
+          </div>
+          <Button variant="outline" size="sm" className="w-full mt-3">
+            View All Communities
+          </Button>
+        </CardContent>
+      </Card>
+
+      {/* Job Recommendations */}
+      <Card className="hover-lift">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <Briefcase className="h-5 w-5 text-success" />
+            Recommended Jobs
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-3">
+            <div className="p-3 border rounded-lg hover:bg-secondary/50 transition-colors">
+              <h4 className="font-medium text-sm">Senior Software Engineer</h4>
+              <p className="text-xs text-muted-foreground flex items-center gap-1 mt-1">
+                <Building className="h-3 w-3" />
+                Google • Bangalore • ₹25L-35L
+              </p>
+              <div className="flex gap-1 mt-2">
+                <Badge variant="secondary" className="text-xs">React</Badge>
+                <Badge variant="secondary" className="text-xs">Node.js</Badge>
+              </div>
+            </div>
+            <div className="p-3 border rounded-lg hover:bg-secondary/50 transition-colors">
+              <h4 className="font-medium text-sm">Product Manager - AI/ML</h4>
+              <p className="text-xs text-muted-foreground flex items-center gap-1 mt-1">
+                <Building className="h-3 w-3" />
+                Microsoft • Hyderabad • ₹20L-28L
+              </p>
+              <div className="flex gap-1 mt-2">
+                <Badge variant="secondary" className="text-xs">AI/ML</Badge>
+                <Badge variant="secondary" className="text-xs">Strategy</Badge>
+              </div>
+            </div>
+          </div>
+          <Button variant="outline" size="sm" className="w-full mt-3">
+            View All Jobs
+          </Button>
+        </CardContent>
+      </Card>
+
+      {/* Donation Campaigns */}
       <Card className="hover-lift">
         <CardHeader>
           <CardTitle className="flex items-center justify-between">

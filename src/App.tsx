@@ -9,6 +9,8 @@ import LandingPage from "@/pages/LandingPage";
 import LoginPage from "@/pages/LoginPage";
 import SignupPage from "@/pages/SignupPage";
 import Dashboard from "@/pages/Dashboard";
+import CommunitiesPage from "@/pages/CommunitiesPage";
+import JobPortalPage from "@/pages/JobPortalPage";
 import NotFound from "./pages/NotFound";
 import { useState } from "react";
 
@@ -101,22 +103,12 @@ const AppContent = () => {
         } />
         <Route path="/jobs" element={
           <ProtectedRoute>
-            <div className="min-h-screen bg-secondary/30 flex items-center justify-center">
-              <div className="text-center">
-                <h1 className="text-2xl font-bold mb-4">Jobs & Internships</h1>
-                <p className="text-muted-foreground">Coming soon...</p>
-              </div>
-            </div>
+            <JobPortalPage />
           </ProtectedRoute>
         } />
         <Route path="/communities" element={
           <ProtectedRoute>
-            <div className="min-h-screen bg-secondary/30 flex items-center justify-center">
-              <div className="text-center">
-                <h1 className="text-2xl font-bold mb-4">Communities</h1>
-                <p className="text-muted-foreground">Coming soon...</p>
-              </div>
-            </div>
+            <CommunitiesPage />
           </ProtectedRoute>
         } />
         
