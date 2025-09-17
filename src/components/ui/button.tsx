@@ -15,6 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // NetworkNexus custom variants
+        hero: "bg-primary text-primary-foreground shadow-lg hover:bg-primary-dark hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5",
+        accent: "bg-accent text-accent-foreground shadow-md hover:bg-accent-hover transition-all duration-300 hover:-translate-y-0.5",
+        success: "bg-success text-success-foreground shadow-md hover:bg-success/90",
+        warning: "bg-warning text-warning-foreground shadow-md hover:bg-warning/90",
       },
       size: {
         default: "h-10 px-4 py-2",

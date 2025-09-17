@@ -1,0 +1,206 @@
+[
+  {
+    "id": "evt001",
+    "title": "IIT Delhi Annual Alumni Reunion 2024",
+    "description": "Join us for the biggest alumni gathering of the year! Reconnect with batchmates, network with industry leaders, and celebrate the legacy of IIT Delhi.",
+    "type": "reunion",
+    "category": "networking",
+    "date": "2024-02-15",
+    "time": "18:00",
+    "endDate": "2024-02-16",
+    "endTime": "22:00",
+    "location": {
+      "venue": "IIT Delhi Campus",
+      "address": "Hauz Khas, New Delhi, Delhi 110016",
+      "isOnline": false,
+      "onlineLink": null
+    },
+    "organizer": {
+      "name": "IIT Delhi Alumni Association",
+      "contact": "alumni@iitd.ac.in",
+      "phone": "+91-11-2659-1234"
+    },
+    "instituteId": "1",
+    "attendees": {
+      "registered": 450,
+      "capacity": 500,
+      "waitlist": 25
+    },
+    "isPublic": true,
+    "requiresRSVP": true,
+    "tags": ["reunion", "networking", "iitd", "alumni"],
+    "image": "/events/iitd-reunion-2024.jpg",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-10T12:00:00Z"
+  },
+  {
+    "id": "evt002",
+    "title": "Tech Career Panel: AI & Machine Learning",
+    "description": "Industry experts discuss the latest trends in AI/ML, career opportunities, and skill development. Perfect for students and early-career professionals.",
+    "type": "webinar",
+    "category": "career",
+    "date": "2024-01-28",
+    "time": "19:00",
+    "endDate": "2024-01-28",
+    "endTime": "21:00",
+    "location": {
+      "venue": "Online",
+      "address": null,
+      "isOnline": true,
+      "onlineLink": "https://zoom.us/j/123456789"
+    },
+    "organizer": {
+      "name": "NetworkNexus Career Team",
+      "contact": "careers@networknexus.com",
+      "phone": null
+    },
+    "instituteId": null,
+    "attendees": {
+      "registered": 234,
+      "capacity": 500,
+      "waitlist": 0
+    },
+    "isPublic": true,
+    "requiresRSVP": true,
+    "tags": ["webinar", "career", "ai", "ml", "tech"],
+    "image": "/events/ai-ml-panel.jpg",
+    "createdAt": "2024-01-05T00:00:00Z",
+    "updatedAt": "2024-01-15T09:30:00Z"
+  },
+  {
+    "id": "evt003",
+    "title": "Mumbai Alumni Networking Mixer",
+    "description": "Casual networking event for alumni working in Mumbai. Great food, drinks, and conversations with fellow graduates from top institutes.",
+    "type": "networking",
+    "category": "social",
+    "date": "2024-02-03",
+    "time": "18:30",
+    "endDate": "2024-02-03",
+    "endTime": "22:00",
+    "location": {
+      "venue": "The Leela Mumbai",
+      "address": "Sahar, Andheri East, Mumbai, Maharashtra 400059",
+      "isOnline": false,
+      "onlineLink": null
+    },
+    "organizer": {
+      "name": "Mumbai Alumni Chapter",
+      "contact": "mumbai@networknexus.com",
+      "phone": "+91-22-1234-5678"
+    },
+    "instituteId": null,
+    "attendees": {
+      "registered": 120,
+      "capacity": 150,
+      "waitlist": 5
+    },
+    "isPublic": true,
+    "requiresRSVP": true,
+    "tags": ["networking", "mumbai", "social", "mixer"],
+    "image": "/events/mumbai-mixer.jpg",
+    "createdAt": "2024-01-08T00:00:00Z",
+    "updatedAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "id": "evt004",
+    "title": "Startup Pitch Competition 2024",
+    "description": "Student and alumni entrepreneurs pitch their startups to a panel of investors and industry experts. Win funding and mentorship opportunities!",
+    "type": "competition",
+    "category": "entrepreneurship",
+    "date": "2024-02-20",
+    "time": "14:00",
+    "endDate": "2024-02-20",
+    "endTime": "18:00",
+    "location": {
+      "venue": "IIT Bombay Entrepreneurship Cell",
+      "address": "IIT Bombay, Powai, Mumbai, Maharashtra 400076",
+      "isOnline": false,
+      "onlineLink": null
+    },
+    "organizer": {
+      "name": "E-Cell IIT Bombay",
+      "contact": "ecell@iitb.ac.in",
+      "phone": "+91-22-2576-7890"
+    },
+    "instituteId": "2",
+    "attendees": {
+      "registered": 89,
+      "capacity": 200,
+      "waitlist": 0
+    },
+    "isPublic": true,
+    "requiresRSVP": true,
+    "tags": ["startup", "pitch", "competition", "entrepreneurship", "funding"],
+    "image": "/events/startup-pitch.jpg",
+    "createdAt": "2024-01-12T00:00:00Z",
+    "updatedAt": "2024-01-22T16:45:00Z"
+  },
+  {
+    "id": "evt005",
+    "title": "Women in Tech Leadership Summit",
+    "description": "Celebrating women leaders in technology. Inspiring talks, panel discussions, and networking opportunities for women in STEM fields.",
+    "type": "conference",
+    "category": "leadership",
+    "date": "2024-03-08",
+    "time": "09:00",
+    "endDate": "2024-03-08",
+    "endTime": "17:00",
+    "location": {
+      "venue": "Bengaluru International Exhibition Centre",
+      "address": "10th Mile, Tumkur Road, Madavara Post, Bengaluru, Karnataka 562123",
+      "isOnline": false,
+      "onlineLink": null
+    },
+    "organizer": {
+      "name": "Women in Tech India",
+      "contact": "info@womenintech.in",
+      "phone": "+91-80-4567-8901"
+    },
+    "instituteId": null,
+    "attendees": {
+      "registered": 340,
+      "capacity": 400,
+      "waitlist": 15
+    },
+    "isPublic": true,
+    "requiresRSVP": true,
+    "tags": ["women", "tech", "leadership", "summit", "stem"],
+    "image": "/events/women-tech-summit.jpg",
+    "createdAt": "2024-01-15T00:00:00Z",
+    "updatedAt": "2024-01-25T11:20:00Z"
+  },
+  {
+    "id": "evt006",
+    "title": "IIT Madras Founders' Meet",
+    "description": "Exclusive gathering of successful entrepreneurs who are IIT Madras alumni. Share experiences, discuss challenges, and explore collaboration opportunities.",
+    "type": "founders_meet",
+    "category": "entrepreneurship",
+    "date": "2024-02-10",
+    "time": "16:00",
+    "endDate": "2024-02-10",
+    "endTime": "20:00",
+    "location": {
+      "venue": "IIT Madras Research Park",
+      "address": "Kanagam Road, Taramani, Chennai, Tamil Nadu 600113",
+      "isOnline": false,
+      "onlineLink": null
+    },
+    "organizer": {
+      "name": "IITM Alumni Entrepreneurs",
+      "contact": "entrepreneurs@iitm.ac.in",
+      "phone": "+91-44-2257-4567"
+    },
+    "instituteId": "3",
+    "attendees": {
+      "registered": 45,
+      "capacity": 50,
+      "waitlist": 8
+    },
+    "isPublic": false,
+    "requiresRSVP": true,
+    "tags": ["founders", "entrepreneurs", "iitm", "exclusive", "networking"],
+    "image": "/events/iitm-founders.jpg",
+    "createdAt": "2024-01-03T00:00:00Z",
+    "updatedAt": "2024-01-18T13:30:00Z"
+  }
+]
